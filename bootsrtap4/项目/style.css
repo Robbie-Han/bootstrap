@@ -1,0 +1,73 @@
+/*小于576px时字体的大小 h1=2.5倍 h2 两倍*/
+html {
+    font-size: 12px;
+}
+/*大于768px时字体的大小 h1=2.5倍 h2 两倍 h3 1.75倍，h4 1.5倍*/
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+#nav{
+    background-color: white;
+    opacity: 0.5;
+}
+.info{
+    padding-top:10%;
+    padding-bottom: 20%;
+}
+#menu,#chef{
+    background-color: #eeedea;
+    padding-top:10%;
+}
+.indent{
+    width: 70%;
+    margin: auto;
+}
+.indent table td{
+    text-align:center;/** 设置水平方向居中 */
+    vertical-align:middle/** 设置垂直方向居中 */
+}
+.title{
+    margin-bottom: 10%;
+}
+.food{
+    margin-bottom: 5%;
+}
+.chef-img{
+    margin-bottom: 5%;
+}
+#contact{
+    margin-bottom: 10%;
+    padding-top: 10%;
+}
+footer p{
+    padding-top:2%;
+}
+.progress{
+    position: absolute;
+    width: 30%;
+    top: 50%;
+    left:35%;
+}
+.content{
+    display: none;
+}
+/*修改左侧列表*/
+#list-tab .fluid{
+    padding: 3% 0 3% 2%;
+    line-height: 150%;
+    font-size: 1.5rem;
+    font-weight: 300;
+    width: 80%;
+}
+/*设置广告使它对齐*/
+#nav-tabContent .pad{
+    padding: 9% 5%;
+}
+#nav-tabContent .pad p{
+    text-indent: 2em;
+}
+.background{
+    background-color: #e2a91d;
+}
